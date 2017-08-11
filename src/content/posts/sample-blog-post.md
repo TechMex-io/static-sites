@@ -4,6 +4,7 @@ title: Sample blog post
 template: post.hbs
 date: 2015-02-14
 author: Matt Levy
+tag: test
 ---
 
 ![](/images/sample-blog-post.jpg)

@@ -1,11 +1,12 @@
 {
-  "title": "",
+  "title": "Tech-Mex",
   "description": "",
   "url": "",
   "rss": "/rss.xml",
   "maxItems": 6,
   "concatJs": [
-    "./src/js/*.js"
+    "./src/js/slides.min.js",
+    "./src/js/custom.js"
   ],
   "styleSheet": "style.css",
   "authors": {
