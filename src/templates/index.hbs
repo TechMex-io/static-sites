@@ -1,33 +1,146 @@
 {{> header}}
+{{> svg }}
 
-{{> navigation}}
 
-<div class="container">
 
-    <header>
-        <h1>{{site.title}}</h1>
-        {{#if tag}}
-            <p>Posts tagged: {{tag}}</p>
-        {{else}}
-            {{#if dateStr}}
-                <p>Posts dated: {{dateStr}}</p>
-            {{else}}
-                <p>{{site.description}}</p>
-            {{/if}}
-        {{/if}}
-    </header>
-
-    <div class="row">
-        <div class="main">
-            {{> loop}}
-
-            {{> pagination}}
+  <section class="slide fade whiteSlide fromLeft">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            {{> navigation}}
+        
+          <div class="fix-12-12">
+            <div class="fix-7-12 left toRight">
+              
+                  <header>
+                    <h1>{{site.title}}</h1>
+                  
+                    {{#if tag}}
+                        <p>Posts tagged: {{tag}}</p>
+                    {{else}}
+                        {{#if dateStr}}
+                            <p>Posts dated: {{dateStr}}</p>
+                        {{else}}
+                            <p>{{site.description}}</p>
+                        {{/if}}
+                    {{/if}}
+                </header>
+                {{> sidebar }}
+              
+              <a class="button pink crop ae-3">Start free trial</a>
+              <p>
+                <a href="http://www.jsoneditoronline.org/">http://www.jsoneditoronline.org/</a>
+              </p>
+              
+            </div>
+          </div>
+          
         </div>
-        <aside>
-            {{> sidebar}}
-        </aside>
+      </div>
     </div>
+  </section>
 
-</div>
+
+
+  <section class="slide fade">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-12-12">
+            <h1 class="ae-1 fromLeft margin-bottom-3">Look for a solution</h1>
+            <div class="popupTrigger clearBoth ae-2 fromRight" data-popup-id="89">
+              <span class="ae-5 fromCenter">
+                <span class="button play white button-89">
+                  <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+                </span>
+              </span>
+              <span class="text-89 uppercase">See Slides in action</span>
+            </div>
+            <ul class="flex later margin-top-4 left">
+              <li class="col-6-12 box-89">
+                <div class="quoteBubble ae-4 fromLeft">
+                  <p class="cropBottom light">The critical distinction between a craftsman and an expert is what happens after a sufficient level of expertise has been achieved. The expert will do everything she can to remain wedded.</p>
+                </div>
+                <div class="quoteName ae-6 fromRight">John Connor<span class="quoteTitle">, Creative Director @Designmodo</span></div>
+              </li>
+              <li class="col-6-12">
+                <ul class="flex fromBottomRight fixedSpaces">
+                  <li class="col-6-12 ae-6">
+                    <h3>Mockup</h3>
+                    <p class="small">Select premade adjustment layers with ease.</p>
+                  </li>
+                  <li class="col-6-12 ae-7">
+                    <h3>Layers</h3>
+                    <p class="small">Open a smart object, paste your design and save.</p>
+                  </li>
+                  <li class="col-6-12 ae-8">
+                    <h3>Branding</h3>
+                    <p class="small">Select a background, drop items that you like.</p>
+                  </li>
+                  <li class="col-6-12 ae-9">
+                    <h3>Present</h3>
+                    <p class="small">Create items by pasting your design, text or logo.</p>
+                  </li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background-computer.jpg)"></div>
+  </section>
+
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="89">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent">
+              <iframe src="https://player.vimeo.com/video/101231747?color=ff0179&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="slide whiteSlide">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-10-12 frame-94 ae-1">
+            <div class="ae-2"><p class="cropBottom inline">Get started. Everything to get you up and running.</p><br><a href="#" class="button button-94 pink ae-3 middle">Start free trial</a></div>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    
+  <section class="slide fade whiteSlide">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-6-12">
+            <div class="ae-1"><p class="hero opaque">In a meat-eating world, wearing leather for shoes and even clothes.</p></div>
+            <a href="#" class="margin-top-2 button button-93 big pink ae-2">Purchase</a>
+            <div class="ae-3 margin-top-2"><p class="phone-93 opaque">or call<a class="bold block opaque" href="tel:+18187652309">+1 (818) 765-23-09</a></p></div>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 {{> footer}}

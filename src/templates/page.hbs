@@ -2,20 +2,28 @@
 
 {{> navigation}}
 
-<div class="container">
+  <section class="slide fade whiteSlide fromLeft">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            {{> navigation}}
 
-    {{#post}}
-    <div class="row">
-        <article>
-            <h1>{{title}}</h1>
-            {{{body}}}
-        </article>
-        <aside>
-            {{> sidebar}}
-        </aside>
+
+                {{#post}}
+                <div class="row">
+                    <article>
+                        <h1>{{title}}</h1>
+                        {{{body}}}
+                    </article>
+                    <aside>
+                        {{> sidebar}}
+                    </aside>
+                </div>
+                {{/post}}
+
+        </div>
+      </div>
     </div>
-    {{/post}}
-
-</div>
+  </section>
 
 {{> footer}}

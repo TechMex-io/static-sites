@@ -6375,30 +6375,3 @@ form input[type="email"].input-96 {
   content: "";
   clear: both;
   display: table; }
-
-nav,
-.h1, h1,
-.h2, h2,
-.h3, h3,
-.h4, h4,
-.h5, h5,
-.h6, h6 {
-  font-family: "Inder", sans-serif; }
-
-.home-link {
-  font-size: 3rem;
-  line-height: 1; }
-
-.main-nav .sections .menu li a {
-  font-size: 1rem;
-  padding: 0; }
-
-.exhibition-image {
-  max-height: 80vh;
-  width: auto; }
-
-.call-to-action.button {
-  padding: 13px 22px; }
-
-.contact .button svg {
-  vertical-align: baseline; }
